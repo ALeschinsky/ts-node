@@ -1,4 +1,7 @@
-### How to execute a TypeScript script that imports from Angular 13 and some custom paths from tsconfig.json
+### ts-node with custom paths problem
+
+This repo demonstrates the problem with executing a TypeScript script that imports from custom paths defined in
+tsconfig.json.
                                  
 ```
 npm i
