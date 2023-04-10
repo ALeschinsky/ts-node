@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "target": "es2015",
-    "module": "es2020",
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -19,10 +19,10 @@
     "downlevelIteration": true,
     "noImplicitReturns": true,
     "typeRoots": ["node_modules/@types"],
-    "lib": ["es2017", "dom"],
+    "lib": ["esnext", "dom"],
     
     "paths": {
-      "@rogers/shared-angular": ["src/lib/public-api"]
+      "@alias/lib": ["src/lib/public-api"]
     }
   },
   "include": [
