@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "ts-node": "ts-node",
+    "ts-script1": "ts-node --esm --experimentalSpecifierResolution=node src/ts-script1.ts",
+    "ts-script2": "ts-node -r tsconfig-paths/register --esm --experimentalSpecifierResolution=node src/ts-script2.ts"
+  },
+  "dependencies": {
+    "@angular/core": "^13.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0"
+  }
+}

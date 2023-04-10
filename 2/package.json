@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "ts-node --es-module-specifier-resolution=node --require tsconfig-paths/register src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
